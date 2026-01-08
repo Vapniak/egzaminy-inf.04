@@ -38,17 +38,6 @@
                 tab[i] = rand.Next(1, 1001);
             }  
         }
-        /*
-        **********************************************
-        nazwa metody: <nazwa>
-        opis metody: <krótki opis, co robi metoda>
-        parametry:  <nazwa i opis parametru1, lub „brak”>
-                    <nazwa i opis parametru2>
-
-        zwracany typ i opis: <nazwa typu i opis co jest zwracane lub „brak”>
-        autor: <numer zdającego>
-        ***********************************************
-        */
   
          /*
         **********************************************
@@ -68,6 +57,16 @@
             }
         }
 
+        /*
+        **********************************************
+        nazwa metody: Szukaj
+        opis metody: Szuka daną wartość i zwraca indeks pod którym jest pierwsze jej wystąpienie
+        parametry:  wartosc - wartość która jest szukana w tablicy
+
+        zwracany typ i opis: int - indeks znalezionego elementu, -1 gdy go nie znaleziono
+        autor: <numer zdającego>
+        ***********************************************
+        */
         public int Szukaj(int wartosc)
         {
             for(var i = 0; i < rozmiar; i++)
@@ -81,6 +80,16 @@
             return -1;
         }
 
+          /*
+        **********************************************
+        nazwa metody: WypiszNieparzysteIPolicz
+        opis metody: Wypisuje do konsoli wszystkie liczby nieparzyste w tablicy i zlicza ile ich wszystkich razem jest
+        parametry:  brak
+
+        zwracany typ i opis: int - liczba nieparzystych liczb
+        autor: <numer zdającego>
+        ***********************************************
+        */
         public int WypiszNieparzysteIPolicz()
         {
             var liczbaNieparzystych = 0;
@@ -96,6 +105,16 @@
             return liczbaNieparzystych;
         }
 
+        /*
+        **********************************************
+        nazwa metody: PoliczSrednia
+        opis metody: liczy średnią wszystkich elementów tablicy
+        parametry:  brak
+
+        zwracany typ i opis: float - średnia wszystkich liczb tablicy
+        autor: <numer zdającego>
+        ***********************************************
+        */
         public float PoliczSrednia()
         {
             var srednia = 0.0f;
