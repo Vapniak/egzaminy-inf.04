@@ -1,0 +1,15 @@
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/bin/Debug/net10.0/konsolowa
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/bin/Debug/net10.0/konsolowa.deps.json
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/bin/Debug/net10.0/konsolowa.runtimeconfig.json
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/bin/Debug/net10.0/konsolowa.dll
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/bin/Debug/net10.0/konsolowa.pdb
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/konsolowa.GeneratedMSBuildEditorConfig.editorconfig
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/konsolowa.AssemblyInfoInputs.cache
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/konsolowa.AssemblyInfo.cs
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/konsolowa.csproj.CoreCompileInputs.cache
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/konsolowa.sourcelink.json
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/konsolowa.dll
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/refint/konsolowa.dll
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/konsolowa.pdb
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/konsolowa.genruntimeconfig.cache
+/home/vapniak/School/Egzaminy/inf_04_2025_01_02_SG/konsolowa/obj/Debug/net10.0/ref/konsolowa.dll
