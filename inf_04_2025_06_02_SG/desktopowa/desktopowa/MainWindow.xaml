@@ -1,0 +1,44 @@
+﻿<Window x:Class="desktopowa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:desktopowa"
+        mc:Ignorable="d"
+        Title="Szyfrowanie. Wykonane przez 00000" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="AntiqueWhite" />
+            <Setter Property="FontSize" Value="18px" />
+            <Setter Property="Margin" Value="10px" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Border Background="CadetBlue">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Label>Podaj wartość klucza</Label>
+                    <TextBox Margin="10px" x:Name="keyTextBox" HorizontalAlignment="Center" MinWidth="50px"/>
+                    <Label>Podaj tekst</Label>
+                    <TextBox x:Name="textTextBox" TextWrapping="Wrap" Height="250px" Margin="10px" />
+                </StackPanel>
+                <Button Click="Button_Click"  Padding="5px" Grid.Column="1" Background="LightBlue" Content="Zaszyfruj" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <StackPanel Grid.Column="2">
+                    <Label>Tekst zaszyfrowany</Label>
+                    <Border BorderBrush="AntiqueWhite"  Height="300px" BorderThickness="3" CornerRadius="20" Padding="20px">
+                        <TextBlock Foreground="AliceBlue" x:Name="encryptedTextBlock"></TextBlock>
+                    </Border>
+                    <Button Click="Button_Click_1" Width="200px" Margin="30px" HorizontalAlignment="Center" Padding="5px" Background="LightBlue">Zapisz szyfr w pliku</Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+        
+        
+        
+    </Grid>
+</Window>
