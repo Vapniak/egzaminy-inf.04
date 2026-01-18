@@ -4,3 +4,4 @@
 - aplikacja desktopowa - C# WPF
 - aplikacja mobilna - Java Android Studio
 - aplikacja webowa - JavaScript ReactJS
+ 
